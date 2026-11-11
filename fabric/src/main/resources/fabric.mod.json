@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "arkandayim",
+  "version": "${version}",
+  "name": "Behind You",
+  "description": "Behind You - Aras is watching you. When the anger bar fills, night falls.",
+  "authors": [
+    "TARZAN"
+  ],
+  "license": "All Rights Reserved",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.arkandayim.fabric.BehindYouFabric"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": ">=1.21 <1.21.2",
+    "java": ">=21"
+  }
+}

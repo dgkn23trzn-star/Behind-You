@@ -19,9 +19,10 @@ ediyor; aşağıdaki "Sürüm durumu" bölümünü oku.
 
 | Minecraft | Mod yükleyici | Durum |
 |-----------|---------------|-------|
-| **1.20.1** | **Forge 47.x** (test: 47.4.28) | ✅ **Oynanabilir** — desteklenen tek sürüm |
+| **1.20.1** | **Forge 47.x** (test: 47.4.28) | ✅ **Oynanabilir** |
+| **1.21 / 1.21.1** | **Fabric** (loader 0.20.1 + Fabric API) | 🚧 **Port sürüyor** — derleniyor, henüz oynanabilir değil |
 | 1.20.2 – 1.21.x | Forge / NeoForge | ❌ Desteklenmiyor |
-| Fabric / Quilt | — | ❌ Desteklenmiyor |
+| 1.20.1 öncesi (1.19.x ve altı) | — | ❌ Desteklenmiyor — destek 1.20.1'den başlar |
 
 - **Java:** 17 (Minecraft 1.20.1 ile aynı)
 - **Gerekli bağımlılık yok:** sadece Forge. Başka mod kurmana gerek yok.
@@ -122,6 +123,23 @@ Bu mod **tamamlanmış bir ürün değil, aktif geliştirilen bir beta**dır. Ya
 Geri bildirim ve hata bildirimi için **Issues** sekmesini kullan.
 
 ---
+
+## Fabric portu (1.21 / 1.21.1)
+
+Mod artık iki yükleyiciye ayrılıyor:
+
+- `src/` + `build.gradle` — **Forge 1.20.1** yapısı, yukarıdaki tüm içerik burada ve oynanabilir.
+- `fabric/` — **Fabric 1.21 / 1.21.1** yapısı (Loom 1.10, Java 21, Yarn 1.21.1).
+  Tek jar `>=1.21 <1.21.2` aralığını kapsar, yani 1.21 ve 1.21.1'i birlikte destekler.
+
+Fabric portu **henüz tamamlanmadı**: bloklar, eşyalar ve yaratıcı sekmesi taşındı ve
+derleniyor; yaratık (Aras), öfke barı, karanlık/el feneri, aletler, totemler, panel ve
+ağ paketleri sıradaki adımlar. Bu yüzden Fabric için henüz **release yayınlanmadı**.
+
+```bash
+cd fabric
+./gradlew build          # build/libs/behindyou-fabric-<sürüm>.jar
+```
 
 ## Kaynaktan derleme
 

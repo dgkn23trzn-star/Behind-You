@@ -1,0 +1,22 @@
+{
+  "whisper": {
+    "subtitle": "arkandayim.subtitle.whisper",
+    "sounds": ["arkandayim:whisper"]
+  },
+  "knock": {
+    "subtitle": "arkandayim.subtitle.knock",
+    "sounds": ["arkandayim:knock"]
+  },
+  "step": {
+    "subtitle": "arkandayim.subtitle.step",
+    "sounds": ["arkandayim:step"]
+  },
+  "heartbeat": {
+    "subtitle": "arkandayim.subtitle.heartbeat",
+    "sounds": ["arkandayim:heartbeat"]
+  },
+  "flashlight": {
+    "subtitle": "arkandayim.subtitle.flashlight",
+    "sounds": ["arkandayim:flashlight"]
+  }
+}
