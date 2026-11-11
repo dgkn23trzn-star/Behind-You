@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "arkandayim:black_book" },
+    "title": { "translate": "advancements.arkandayim.eski_sakinler.title" },
+    "description": { "translate": "advancements.arkandayim.eski_sakinler.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "impossible": { "trigger": "minecraft:impossible" }
+  }
+}

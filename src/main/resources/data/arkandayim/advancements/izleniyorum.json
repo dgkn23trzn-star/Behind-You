@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "minecraft:ender_eye" },
+    "title": { "translate": "advancements.arkandayim.izleniyorum.title" },
+    "description": { "translate": "advancements.arkandayim.izleniyorum.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "impossible": { "trigger": "minecraft:impossible" }
+  }
+}

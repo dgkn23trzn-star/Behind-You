@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "arkandayim:brown_sword" },
+    "title": { "translate": "advancements.arkandayim.efsanevi_kilic.title" },
+    "description": { "translate": "advancements.arkandayim.efsanevi_kilic.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "impossible": { "trigger": "minecraft:impossible" }
+  }
+}

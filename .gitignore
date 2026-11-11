@@ -1,0 +1,32 @@
+# Gradle
+.gradle/
+build/
+out/
+
+# Forge dev server / client run directory
+run/
+runs/
+server*.log
+*.log
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Freebuff / tool internals
+.freebuff/
+
+# Local jars produced outside the mod build (the release jar is attached to GitHub Releases)
+/Arkandayim-*.jar

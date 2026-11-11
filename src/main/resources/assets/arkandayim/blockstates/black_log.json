@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "axis=y": { "model": "arkandayim:block/black_log" },
+    "axis=z": { "model": "arkandayim:block/black_log_horizontal", "x": 90 },
+    "axis=x": { "model": "arkandayim:block/black_log_horizontal", "x": 90, "y": 90 }
+  }
+}

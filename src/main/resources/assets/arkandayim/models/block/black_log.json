@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "arkandayim:block/black_log_top",
+    "side": "arkandayim:block/black_log"
+  }
+}

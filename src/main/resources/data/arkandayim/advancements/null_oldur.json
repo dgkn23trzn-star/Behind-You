@@ -1,0 +1,13 @@
+{
+  "display": {
+    "icon": { "item": "arkandayim:aras_spawn_egg" },
+    "title": { "translate": "advancements.arkandayim.null_oldur.title" },
+    "description": { "translate": "advancements.arkandayim.null_oldur.description" },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "impossible": { "trigger": "minecraft:impossible" }
+  }
+}
