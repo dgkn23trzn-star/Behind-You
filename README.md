@@ -1,8 +1,11 @@
-# Arkandayim
+# Behind You
+
+> Eski adı **Arkandayim**, İngilizce adı **Behind You**. Teknik kimlik (`arkandayim`) değişmedi;
+eski dünyalar ve dosyalar çalışmaya devam eder.
 
 > **Aras seni izliyor. Öfke barı dolunca gece başlar.**
 
-Arkandayim, Minecraft için yazılmış bir **psikolojik korku** modudur. Klasik "korku modu"
+Behind You, Minecraft için yazılmış bir **psikolojik korku** modudur. Klasik "korku modu"
 kalıbını tersine çevirir: seni kovalayan şey sürekli peşinde değildir — **görülmeyi bekler**.
 Karanlıkta bir şey vardır, ama önce sen ona bakmadan harekete geçmez. Yanlış zamanda doğru
 yöne bakmak, ya da karanlıkta sohbete "null" yazmak, onu üzerine salar.
@@ -31,9 +34,9 @@ ediyor; aşağıdaki "Sürüm durumu" bölümünü oku.
 ## Kurulum
 
 1. [Minecraft Forge 47.x](https://files.minecraftforge.net/) ile **1.20.1** profili oluştur.
-2. `Arkandayim-1.0.0.jar` dosyasını **Releases** sekmesinden indir.
+2. `BehindYou-1.0.0.jar` dosyasını **Releases** sekmesinden indir.
 3. Jar'ı `.minecraft/mods/` klasörüne at.
-4. Oyunu Forge profiliyle başlat. Mod listesinde **Arkandayim** görünür.
+4. Oyunu Forge profiliyle başlat. Mod listesinde **Behind You** görünür.
 
 ---
 
@@ -93,10 +96,10 @@ Mod, "gece = biraz daha karanlık" demez; **ışıksız yer = zifiri karanlık**
 | **Null totemi** | Elinde tutarken Aras sana çarparsa, yıldırımla yok edilir |
 | **Gölge totemi** | Sağ tık: seni görünmez yapıp Aras'tan 26 blok uzağa fırlatır |
 | **Koruyucu totem** | Sağ tık: kısa süreli kalkan; envanterde dururken **bir ölümcül vuruşu yer** |
-| **Arkandayim paneli** | Modun kontrol paneli (aşağıya bak) |
+| **Behind You paneli** | Modun kontrol paneli (aşağıya bak) |
 
 > Not: Bu sürümde **hiçbir tarif (crafting recipe) yoktur**. Eşyalar yaratıcı modda
-> **Arkandayim** sekmesinden veya panelden alınır; tarifler ileride eklenecek.
+> **Behind You** sekmesinden veya panelden alınır; tarifler ileride eklenecek.
 
 ### Panel
 Paneli kullanınca animasyonlu bir ekran açılır: 25 eşyanın listesi ve dünya aksiyonları
